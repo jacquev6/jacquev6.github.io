@@ -60,17 +60,16 @@ complementary:
 
 @media screen and (min-width: 992px) {
     #jacquev6_ribbons {
+        z-index: 9999;
         position: absolute;
         overflow: hidden;
-        width: 100%;
-        height: 100%;
+        width: 200px;
+        height: 200px;
         top: 0;
-        left: 0;
+        right: 0;
     }
 
     #jacquev6_ribbons>div {
-        overflow: hidden;
-        z-index: 9999;
         position: absolute;
         /* Rotation is done around the center. We want to keep the center on the diagonal.
         So, we must keep width / 2 + right == heigth / 2 + top */
